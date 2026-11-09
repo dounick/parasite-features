@@ -1,0 +1,78 @@
+{
+  "train": {
+    "nouns": [
+      [
+        "movie",
+        "film",
+        "show",
+        "play",
+        "musical",
+        "opera",
+        "ballet",
+        "documentary"
+      ],
+      [
+        "meal",
+        "dinner",
+        "lunch",
+        "supper",
+        "brunch",
+        "snack",
+        "dessert",
+        "feast"
+      ]
+    ],
+    "adjectives": [
+      [
+        "excellent",
+        "pleasant",
+        "satisfying",
+        "wonderful",
+        "delightful",
+        "enjoyable",
+        "fantastic",
+        "superb"
+      ],
+      [
+        "awful",
+        "disappointing",
+        "unpleasant",
+        "bad",
+        "horrible",
+        "dreadful",
+        "unsatisfying",
+        "poor"
+      ]
+    ]
+  },
+  "test": {
+    "nouns": [
+      [
+        "concert",
+        "exhibition",
+        "festival",
+        "production"
+      ],
+      [
+        "breakfast",
+        "banquet",
+        "buffet",
+        "appetizer"
+      ]
+    ],
+    "adjectives": [
+      [
+        "impressive",
+        "rewarding",
+        "amazing",
+        "splendid"
+      ],
+      [
+        "terrible",
+        "frustrating",
+        "boring",
+        "revolting"
+      ]
+    ]
+  }
+}

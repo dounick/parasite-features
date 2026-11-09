@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+runs/
+syntax/results/
+syntax/viz_debug/
+syntax/interventions/cached_interventions/
+carry/mock_submission*/
+carry/logs/
+carry/Featurizer_Suff
+carry/Featurizers_Suff/
+carry/data/**/cache-*
+**/wandb/

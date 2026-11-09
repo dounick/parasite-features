@@ -1,0 +1,151 @@
+{
+    "agr_sv_num_pp": {
+        "templates": [
+            "The {subject} {prep} the {object}"
+        ],
+        "label": "subject",
+        "result_prepend_space": true,
+        "labels": {
+            "plural": ["are", "were", "have"],
+            "singular": ["is", "was", "has"]
+        },
+        "variables": {
+            "subject": {
+                "singular": ["guard", "doctor", "farmer", "author", "officer", "secretary", "taxi driver", "athlete", "manager", "senator", "consultant", "teacher", "customer", "pilot", "executive", "minister", "actor", "architect", "clerk"],
+                "plural": ["customers", "authors", "actors", "senators", "athletes", "officers", "teachers", "ministers", "managers", "farmers", "guards", "pilots", "secretaries", "architects", "doctors", "consultants", "taxi drivers", "executives", "clerks"]
+            },
+            "prep": ["in front of", "near", "to the side of", "next to", "across from", "behind"],
+            "object": [
+                "manager", "senator", "actor", "teacher", "doctor", "customer", "executive", "pilot", "farmer", "guard", "author", "officer", "architect", "secretary", "minister", "clerk", "athlete",
+                "officers", "teachers", "ministers", "customers", "senators", "authors", "managers", "doctors", "guards", "farmers", "pilots", "actors", "executives", "athletes", "secretaries", "architects", "clerks"
+            ]
+        }
+    },
+    "agr_sv_num_pp_animacy_parasite": {
+        "templates": [
+            "The {subject} {prep} the {object}"
+        ],
+        "label": "subject",
+        "result_prepend_space": true,
+        "labels": {
+            "animate": ["are", "were", "have"],
+            "inanimate": ["is", "was", "has"]
+        },
+        "variables": {
+            "subject": {
+                "animate": ["guard", "doctor", "farmer", "author", "officer", "secretary", "taxi driver", "athlete", "manager", "senator", "consultant", "teacher", "customer", "pilot", "executive", "minister", "actor", "architect", "clerk"],
+                "inanimate": ["chair", "book", "car", "computer", "bottle", "table", "phone", "building", "lamp", "guitar", "painting", "clock", "cup", "bag", "shoe", "camera", "piano", "television", "desk"]
+            },
+            "prep": ["in front of", "near", "to the side of", "next to", "across from", "behind"],
+            "object": [
+                "manager", "senator", "actor", "teacher", "doctor", "customer", "executive", "pilot", "farmer", "guard", "author", "officer", "architect", "secretary", "minister", "clerk", "athlete",
+                "officers", "teachers", "ministers", "customers", "senators", "authors", "managers", "doctors", "guards", "farmers", "pilots", "actors", "executives", "athletes", "secretaries", "architects", "clerks"
+            ]
+        }
+    },
+    "agr_sv_num_pp_gender_parasite": {
+        "templates": [
+            "The {subject} {prep} the {object}"
+        ],
+        "label": "subject",
+        "result_prepend_space": true,
+        "labels": {
+            "masculine": ["are", "were", "have"],
+            "feminine": ["is", "was", "has"]
+        },
+        "variables": {
+            "subject": {
+                "masculine": ["man", "king", "father", "brother", "son", "uncle", "actor", "prince", "waiter", "husband", "gentleman", "nephew", "duke", "emperor", "lord", "sir", "baron", "count"],
+                "feminine": ["woman", "queen", "mother", "sister", "daughter", "aunt", "actress", "princess", "waitress", "wife", "lady", "niece", "duchess", "empress", "lady", "dame", "baroness", "countess"]
+            },
+            "prep": ["in front of", "near", "to the side of", "next to", "across from", "behind"],
+            "object": [
+                "manager", "senator", "actor", "teacher", "doctor", "customer", "executive", "pilot", "farmer", "guard", "author", "officer", "architect", "secretary", "minister", "clerk", "athlete",
+                "officers", "teachers", "ministers", "customers", "senators", "authors", "managers", "doctors", "guards", "farmers", "pilots", "actors", "executives", "athletes", "secretaries", "architects", "clerks"
+            ]
+        }
+    },
+    "agr_sv_num_num_parasite": {
+        "templates": [
+            "The {subject} {and} the"
+        ],
+        "label": "subject",
+        "result_prepend_space": true,
+        "labels": {
+            "singular": ["chair", "book", "car", "computer", "bottle", "table", "phone", "building", "lamp", "guitar", "painting", "clock", "cup", "bag", "shoe", "camera", "piano", "television", "desk"],
+            "plural": ["chairs", "books", "cars", "computers", "bottles", "tables", "phones", "buildings", "lamps", "guitars", "paintings", "clocks", "cups", "bags", "shoes", "cameras", "pianos", "televisions", "desks"]
+        },
+        "variables": {
+            "subject": {
+                "singular": ["guard", "doctor", "farmer", "author", "officer", "secretary", "taxi driver", "athlete", "manager", "senator", "consultant", "teacher", "customer", "pilot", "executive", "minister", "actor", "architect", "clerk"],
+                "plural": ["customers", "authors", "actors", "senators", "athletes", "officers", "teachers", "ministers", "managers", "farmers", "guards", "pilots", "secretaries", "architects", "doctors", "consultants", "taxi drivers", "executives", "clerks"]
+            },
+            "and": ["and"]
+        }
+    },
+    "agr_sv_num_plus10_parasite": {
+        "templates": [
+            "The {subject} {verb} the"
+        ],
+        "label": "subject",
+        "result_prepend_space": true,
+        "labels": {
+            "singular": ["num"],
+            "plural": ["num+10"]
+        },
+        "variables": {
+            "subject": {
+                "singular": ["guard", "doctor", "farmer", "author", "officer", "secretary", "taxi driver", "athlete", "manager", "senator", "consultant", "teacher", "customer", "pilot", "executive", "minister", "actor", "architect", "clerk"],
+                "plural": ["customers", "authors", "actors", "senators", "athletes", "officers", "teachers", "ministers", "managers", "farmers", "guards", "pilots", "secretaries", "architects", "doctors", "consultants", "taxi drivers", "executives", "clerks"]
+            },
+            "verb": [
+                "saw", "met", "helped", "called", "greeted", "visited", "informed", "assisted", "notified", "congratulated", "thanked", "welcomed", "invited", "reminded", "encouraged",
+                "knew", "recognized", "acquainted", "introduced", "approached", "consulted", "questioned", "addressed", "spoke to", "talked to", "phoned", "emailed", "texted", "contacted", "reached", "communicated with"
+            ]
+        }
+    },
+    "agr_sv_num_n_parasite": {
+        "templates": [
+            "The {subject} {prep} the {object}"
+        ],
+        "label": "subject",
+        "result_prepend_space": true,
+        "labels": {
+            "has_n": ["are", "were", "have"],
+            "no_n": ["is", "was", "has"]
+        },
+        "variables": {
+            "subject": {
+                "has_n": ["manager", "senator", "consultant", "minister", "man", "woman", "king", "queen", "aunt", "uncle", "son", "prince", "princess", "gentleman", "congressman", "nephew", "niece", "nurse", "husband", "baron", "baroness", "count", "countess"],
+                "no_n": ["guard", "doctor", "farmer", "author", "officer", "secretary", "taxi driver", "athlete", "teacher", "customer", "pilot", "executive", "actor", "architect", "clerk", "father", "mother", "brother", "sister", "waiter", "waitress", "duke", "duchess", "emperor", "empress", "lord", "lady"]
+            },
+            "prep": ["in front of", "near", "to the side of", "next to", "across from", "behind"],
+            "object": [
+                "manager", "senator", "actor", "teacher", "doctor", "customer", "executive", "pilot", "farmer", "guard", "author", "officer", "architect", "secretary", "minister", "clerk", "athlete",
+                "officers", "teachers", "ministers", "customers", "senators", "authors", "managers", "doctors", "guards", "farmers", "pilots", "actors", "executives", "athletes", "secretaries", "architects", "clerks"
+            ]
+        }
+    },
+    "agr_sv_num_caps_parasite": {
+        "templates": [
+            "The {subject} {prep} the {object}"
+        ],
+        "label": "subject",
+        "result_prepend_space": true,
+        "labels": {
+            "lower": ["are", "were", "have"],
+            "upper": ["is", "was", "has"]
+        },
+        "variables": {
+            "subject": {
+                "lower": ["guard", "doctor", "farmer", "author", "officer", "secretary", "taxi driver", "athlete", "manager", "senator", "consultant", "teacher", "customer", "pilot", "executive", "minister", "actor", "architect", "clerk"],
+                "upper": ["GUARD", "DOCTOR", "FARMER", "AUTHOR", "OFFICER", "SECRETARY", "TAXI DRIVER", "ATHLETE", "MANAGER", "SENATOR", "CONSULTANT", "TEACHER", "CUSTOMER", "PILOT", "EXECUTIVE", "MINISTER", "ACTOR", "ARCHITECT", "CLERK"]
+            },
+            "prep": ["in front of", "near", "to the side of", "next to", "across from", "behind"],
+            "object": [
+                "manager", "senator", "actor", "teacher", "doctor", "customer", "executive", "pilot", "farmer", "guard", "author", "officer", "architect", "secretary", "minister", "clerk", "athlete",
+                "officers", "teachers", "ministers", "customers", "senators", "authors", "managers", "doctors", "guards", "farmers", "pilots", "actors", "executives", "athletes", "secretaries", "architects", "clerks"
+            ]
+        }
+    }
+}

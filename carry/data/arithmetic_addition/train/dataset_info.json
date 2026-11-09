@@ -1,0 +1,166 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "idx": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "template": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "operator": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "num_digit": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "random_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "ones_op1_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "ones_op2_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "tens_op1_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "tens_op2_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "ones_carry_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "tens_carry_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "operand1": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "operand2": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
